@@ -22,42 +22,40 @@
 
 <body>
     <header class="header" id="header">
-        <nav class="nav container nav_tabs">
+        <nav class="nav container">
             <a href="" class="nav__logo">Riv Teles</a>
 
             <div class="nav__menu" id="nav-menu">
-                
-
                 <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#" id="active"  class="nav__link">
-                            <input type="radio" id="tab1" class="rd_tab" name="tabs" checked>
-                            <label for="tab1" class="tab_label"><span>Início</span></label>
-                        </a>
-                    </li class="nav__item">
-                    <li>
-                        <a href="#" class="nav__link">
-                            <input type="radio" name="tabs" class="rd_tab" id="tab2">
-                            <label for="tab2" class="tab_label"><span>Reportagens</span></label>
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">
-                            <input type="radio" name="tabs" class="rd_tab" id="tab3">
-                            <label for="tab3" class="tab_label"><span>Contato</span></label>
-                        </a>
 
+                    <li class="nav__item">
+                        <a id="active" class="nav__link" href="#">
+                            Início
+                        </a>
+                        <span class=""></span>
                     </li>
 
+                    <li class="nav__item">
+                        <a id="bloco"  class="nav__link" href="#bloco">
+                            Blocos
+                        </a>
+                    </li>
                 </ul>
+
+
                 <i class="ri-close-fill nav__close" id="nav-close"></i>
             </div>
 
             <div class="nav__toggle" id="nav-toggle">
                 <i class="ri-function-line"></i>
             </div>
+
         </nav>
+
     </header>
+
+    
+
 
     <div class="special-thematic">
         <h1>LGBT</h1>
@@ -72,7 +70,7 @@
 
     <main class="main">
         <!----======================= HOME =======================--->
-        <section class="home" id="home">
+        <section id="bloco-1" class="bloco__1 bg-white">
             <div class="row">
                 <h1>A realidade da comunidade LGBTPQIA+ e o paralelo Bolsonaro</h1>
                 <hr class="rainbow">
@@ -101,7 +99,9 @@
                     polêmicas quando questionado sobre os temas que envolvem a população LGBT+</p>
             </div>
 
+        </section>
 
+        <section id="bloco-2" class="bloco__2 bg-white">
             <div class="row">
                 <h1>
                     Homofobia é crime
@@ -147,6 +147,11 @@
                     conquistas da comunidade LGBTPQIA+, contextualizando com as declarações do presidente, ajuda a
                     entender não só as conquistas do movimento, mas porque elas se revelam necessárias. </p>
             </div>
+        </section>
+
+
+        <section id="bloco-3" class="bloco__3 bg-white">
+
 
             <div class="row">
                 <h1>
@@ -196,12 +201,36 @@
                     </p>
                 </div>
             </div>
-        </section>
-        <!----======================= ABOUT =======================--->
 
+        </section>
+
+        <!----======================= ABOUT =======================--->
+        <i onclick="subirTopo()" id="top" class="ri-upload-line"></i>
     </main>
 
 
+    <!-- nav blocos -->
+    <div class="nav__bloco" id="nav-bloco">
+        
+        <ul class="nav__list">
+            <li class="nav__item">
+                <h1>Blocos</h1>
+                <a href="#bloco-1" class="nav__link">
+                    A realidade da comunidade LGBTPQIA+ e o paralelo Bolsonaro
+                </a>
+                <a href="#bloco-2" class="nav__link">
+                    Homofobia é crime
+                </a>
+                <a href="#bloco-3" class="nav__link">
+                    Retrospecto de Resistência
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    
+    
 
     <!--========== SCROLL UP ==========-->
     <a href="#" class="scrollup" id="scroll-up">
@@ -218,6 +247,7 @@
     <script src="assets/js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="assets/js/jquery.vide.js"></script>
+
 </body>
 
 </html>
