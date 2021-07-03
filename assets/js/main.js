@@ -48,7 +48,9 @@ function linkAction(){
 console.log(wrapperMenu.addEventListener('click', () =>{ wrapperMenu.classList.remove('show-menu') }))
 
 }   
-        
+
+
+/*==================== SCROLL ====================*/   
 window.onscroll = function () {
     showArrow()
 }
