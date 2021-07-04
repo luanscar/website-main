@@ -101,6 +101,8 @@ a {
     padding: 4.5rem 0 2.5rem;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+
 }
 
 .section__title {
@@ -193,9 +195,7 @@ a {
         padding: 3rem;
         transition: .4s;
     }
-
-    #bloco
-    {
+    #bloco {
         display: none;
     }
 }
@@ -247,6 +247,7 @@ a {
     width: 100%;
     height: 100vh;
     z-index: -1;
+    overflow: hidden;
 }
 
 .special-thematic {
@@ -262,12 +263,10 @@ a {
     background: rgba(10, 10, 10, 0.349);
 }
 
-.special-thematic h1
-{
+.special-thematic h1 {
     text-align: center;
     font-size: 40px;
- 
-font-family: 'Pompiere', cursive;
+    font-family: 'Pompiere', cursive;
 }
 
 .seta {
@@ -292,10 +291,12 @@ font-family: 'Pompiere', cursive;
     width: 100%;
     height: 100%;
     z-index: 1000;
+    overflow: hidden;
 }
 
 .row {
     padding: 0 20px;
+    overflow: hidden;
 }
 
 .row h1 {
@@ -313,6 +314,7 @@ hr {
     margin-top: 10px;
     width: 100%;
     height: 4px;
+    overflow: hidden;
 }
 
 .row p {
@@ -381,6 +383,11 @@ hr.rainbow {
 .container-img img {
     width: 60%;
     height: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-img1 {
@@ -494,22 +501,19 @@ audio::-webkit-media-controls-panel {
 
 .img-left p {
     padding: 0;
+    overflow: hidden;
 }
 
 .img-left .imgx {
-    width: 500px;
-    height: 500px;
+    width: 30%;
     margin-right: 20px;
-    display: flex;
     object-fit: cover;
-    float: left;
     align-items: center;
+    overflow: hidden;
 }
 
 .img-left .imgx img {
-    width: 40%;
-    margin: 0 auto;
-    object-fit: cover;
+    width: 100%;
 }
 
 .anexo16 {
@@ -519,10 +523,7 @@ audio::-webkit-media-controls-panel {
     width: 100%;
     height: 80vh;
     background-color: black;
-}
-
-.ytp-title {
-    display: none;
+    overflow: hidden;
 }
 
 /* ==================== MIDEA QUERIES  ==================== */
@@ -571,6 +572,7 @@ audio::-webkit-media-controls-panel {
     }
     section {
         padding: 5rem 0 2rem;
+        overflow: hidden;
     }
     .row {
         padding: 0 100px;
