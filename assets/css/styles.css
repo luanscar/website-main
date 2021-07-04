@@ -102,7 +102,6 @@ a {
     width: 100%;
     height: 100%;
     overflow: hidden;
-
 }
 
 .section__title {
@@ -504,16 +503,14 @@ audio::-webkit-media-controls-panel {
     overflow: hidden;
 }
 
-.img-left .imgx {
-    width: 30%;
-    margin-right: 20px;
-    object-fit: cover;
-    align-items: center;
+.img-left {
+    clear: both;
+    width: 100%;
     overflow: hidden;
 }
 
-.img-left .imgx img {
-    width: 100%;
+.img-left img {
+    float: left;
 }
 
 .anexo16 {
