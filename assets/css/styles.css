@@ -301,8 +301,16 @@
                 }
                 
                 .special-thematic .biggest {
-                    font-size: 18px;
                     padding: 0;
+                }
+                
+                .biggest .x-big {
+                    font-family: StretchPro;
+                    font-size: 33px;
+                }
+                
+                .biggest .big {
+                    font-size: 41px;
                     font-family: StretchPro;
                 }
                 
@@ -738,7 +746,6 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background-color: black;
                 }
                 
                 .video-end .maes {
