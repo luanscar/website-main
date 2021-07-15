@@ -741,6 +741,9 @@
                     .x-big {
                         display: none;
                     }
+                    .nav__link:hover {
+                        color: black;
+                    }
                 }
                 
                 footer {
