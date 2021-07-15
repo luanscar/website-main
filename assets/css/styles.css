@@ -549,7 +549,21 @@
                 /* ==================== MIDEA QUERIES  ==================== */
                 /* ==================== medium  ==================== */
                 
+                @media screen and (min-width: 375px) {
+                    .title-name {
+                        display: none;
+                    }
+                }
+                
                 @media screen and (min-width: 768px) {
+                    .title-name {
+                        display: flex;
+                    }
+                    .title-name {
+                        font-size: 37px;
+                        font-family: StretchPro;
+                        color: white;
+                    }
                     .special-thematic h1 {
                         text-align: center;
                         font-size: 22px;
@@ -557,8 +571,14 @@
                         font-family: 'Open Sans', sans-serif;
                     }
                     .special-thematic .biggest {
-                        font-size: 37px;
-                        font-family: StretchPro;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: row;
+                    }
+                    .big,
+                    .x-big {
+                        display: none;
                     }
                     body {
                         margin: 0;
@@ -715,6 +735,11 @@
                     }
                     .x1 {
                         width: 80% !important;
+                    }
+                    .biggest,
+                    .big,
+                    .x-big {
+                        display: none;
                     }
                 }
                 
