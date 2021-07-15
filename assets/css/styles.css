@@ -733,3 +733,14 @@
                     font-size: 20px;
                     font-family: 'Quicksand', sans-serif;
                 }
+                
+                .video-end {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: black;
+                }
+                
+                .video-end .maes {
+                    width: 60%;
+                }
