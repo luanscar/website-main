@@ -300,9 +300,7 @@
                     src: url('StretchPro.otf') format('opentype');
                 }
                 
-                .special-thematic .biggest {
-                    padding: 0;
-                }
+                .special-thematic .biggest {}
                 
                 .biggest .x-big {
                     font-family: StretchPro;
@@ -549,7 +547,7 @@
                 /* ==================== MIDEA QUERIES  ==================== */
                 /* ==================== medium  ==================== */
                 
-                @media screen and (min-width: 375px) {
+                @media screen and (min-width: 205px) {
                     .title-name {
                         display: none;
                     }
