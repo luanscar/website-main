@@ -25,9 +25,10 @@
     <header class="header" id="header">
         <nav class="nav container">
             <div class="nav__menu" id="nav-menu">
+
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a id="active" class="nav__link active" href="#"> Início </a>
+                        <a id="active" class="nav__link active none" href="#"> Início </a>
                         <span class=""></span>
                     </li>
 
@@ -36,10 +37,30 @@
                     </li>
 
                     <li class="nav__item">
-                        <a class="nav__link" href="mailto:webmaster@example.com">
+                        <a class="nav__link none" href="mailto:webmaster@example.com">
                 Contato
               </a>
                         <span class=""></span>
+                    </li>
+
+                    <li>
+
+                        <!-- nav blocos -->
+                        <div class="nav__bloco" id="nav-bloco">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <h1 style="color: black; text-align: center; margin-top: 50px;">Lista dos Blocos</h1>
+
+                                    <a href="#bloco-3" class="nav__link"> Retrospecto de Resistência </a>
+                                    <a href="#bloco-4" class="nav__link"> Ascensão do conservadorismo </a>
+                                    <a href="#bloco-5" class="nav__link"> Como denunciar? </a>
+                                    <a href="#bloco-6" class="nav__link"> O paralelo da corrida eleitoral </a>
+                                    <a href="#bloco-7" class="nav__link"> Estigma social e saúde pública </a>
+                                    <a href="#bloco-8" class="nav__link"> Comportamento </a>
+                                    <a href="#bloco-9" class="nav__link"> Família </a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
 
@@ -54,13 +75,14 @@
 
     <div class="video">
         <div class="special-thematic">
-            <h1 class="biggest">HOOSTILIDADE E ORGGULHO:</h1>
-            <br />
+            <h1 class="biggest">HOOSTILIDADE E ORGULHO:</h1>
             <h1>A TRAJETÓRIA DO PARALELO BOLSONARO E A COMUNIDADE LGBTPQIA+</h1>
             <i class="seta ri-arrow-down-s-line"></i>
         </div>
         <video loop muted autoplay>
         <source src="assets/video/Horizontal.mp4" type="video/mp4" />
+        <source src="assets/video/Horizontal.ogv" type="video/ogv" />
+        <source src="assets/video/Horizontal.webm" type="video/webm" />
       </video>
     </div>
 
@@ -510,7 +532,7 @@
         </div>
 
         <div class="special-quote">
-                <img src="assets/imgs/infografico.png" class="card-img-top" alt="..." />
+                <img width="80%" src="https://i.imgur.com/HteBLLF.png" class="card-img-top" alt="..." />
           </div>
 
     
@@ -769,8 +791,7 @@
                             lidam com a gente com mais respeito” complementa Karina Pires.
                         </p>
 
-                        <h1>Fotos do Casal (Karina)</h1>
-                        <hr class="rainbow" />
+
                     </div>
                     <div class="carrosel">
                         <div class="carousel">
@@ -831,7 +852,7 @@
                     </div>
         </section>
 
-        <section id="#bloco-7" class="bloco__7 bg-white">
+        <section id="bloco-7" class="bloco__7 bg-white">
             <div class="row">
                 <h1>Estigma social e saúde pública</h1>
                 <hr class="rainbow" />
@@ -928,7 +949,7 @@
 
                     <div class="container-img">
                         <div class="card">
-                            <img src="assets/imgs/Anexo 10.png" class="card-img-top" alt="..." />
+                            <img src="assets/imgs/Anexo 10.png" class="card-img-top x1" alt="..." />
                         </div>
                         <br>
                         <div class="card-text">
@@ -1356,35 +1377,9 @@
             se sentem orgulho dos seus filhos e filhas, eles e elas respondem:
           </p>
         </div>
-
-        <div
-          style="
-            position: relative;
-            margin: 0 auto;
-            padding-bottom: 56.25%;
-            height: 40%;
-            width: 80%;
-            overflow: hidden;
-          "
-        >
-          <iframe
-            style="
-              width: 100%;
-              height: 100%;
-              position: absolute;
-              left: 0px;
-              top: 0px;
-              overflow: hidden;
-            "
-            frameborder="0"
-            type="text/html"
-            src="https://www.dailymotion.com/embed/video/k1tF4uywDrTgvKx0QmY&showinfo=0"
-            width="100%"
-            height="100%"
-            allowfullscreen
-          >
-          </iframe>
-        </div>
+        
+        <iframe width="100%" height="600" src="https://web.microsoftstream.com/embed/video/3314d659-d002-4c10-a7e9-1424e27b2fc4?autoplay=false&showinfo=false" allowfullscreen style="border:none;"></iframe>
+        
 
         <div class="row">
           <p>
@@ -1418,32 +1413,27 @@
                 <p>Publicado em 15 de julho de 2021</p>
                 <div class="row">
                     <hr>
-                    <b>Arte:</b> Fulano; <b>Desenvolvimento:</b> Luan Araujo; <b>Edição:</b> Rivandson Teles; <b>Reportagem:</b> Rivandson Teles; <b>Vídeo:</b> Rivandson Teles;
+
+                    <b> Créditos Ilustrações:</b> Igor Aquino <br>
+                    <b> Desenvolvimento da página Web: </b> Luan Araujo <br>
+                    <b> Reportagem e edição: </b> Rivandson Teles <br>
+                    <b>Orientação: </b> Vitor Belém <br>
+                    <b> Imagens da internet</b>
+
                 </div>
 
             </div>
         </div>
     </footer>
 
-    <!-- nav blocos -->
-    <div class="nav__bloco" id="nav-bloco">
-        <ul class="nav__list">
-            <li class="nav__item">
-                <h1>Blocos</h1>
-                <a href="#bloco-1" class="nav__link">
-            A realidade da comunidade LGBTPQIA+ e o paralelo Bolsonaro
-          </a>
-                <a href="#bloco-2" class="nav__link"> Homofobia é crime </a>
-                <a href="#bloco-3" class="nav__link"> Retrospecto de Resistência </a>
-            </li>
-        </ul>
-    </div>
+
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+
 
     <script>
         $(".carousel").slick({
